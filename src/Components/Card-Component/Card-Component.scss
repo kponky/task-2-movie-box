@@ -1,0 +1,146 @@
+.movie-card-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 15%;
+    text-decoration: none;
+    color: #111827;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+
+  
+    img {
+      width: 80%;
+      height: 95%;
+      object-fit: cover;
+      margin-bottom: 5px;
+      border-radius: 0%;
+    }
+
+     button {
+      width: 30px;
+      height: 29.21px;
+      background: rgba(209, 213, 219, 0.5);
+      border: 0;
+      outline: none;
+      opacity: 1;
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      border-radius: 50%;
+      // display: none;
+
+      img{
+        width: 23px;
+        height: auto;
+        margin-top: 3px;
+      }
+
+
+    &:hover {
+      background: rgba(203, 22, 67, 0.7);
+      img {
+        opacity: 0.8;
+        background: rgba(203, 22, 67, 0.7);
+      }
+
+    }
+  }
+
+  &:hover {
+    img {
+      opacity: 0.8;
+    }
+  } 
+
+  .footer {
+    width: 80%;
+    display: flex;
+    margin-top: 4px;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    
+
+
+    .title {
+      width: 65%;
+      text-align: left;
+    }
+
+    .release-date {
+      width: 35%;
+      text-align: right;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-card-container {
+
+    button {
+      width: 18px;
+      height: 18.21px;
+      position: absolute;
+      top: 5px;
+      right: 18px;
+      border-radius: 50%;
+      // display: none;
+
+      img{
+        width: 15px;
+        height: auto;
+        margin-top: 2px;
+      }
+
+
+    &:hover {
+      background: rgba(203, 22, 67, 0.7);
+      img {
+        opacity: 0.8;
+        background: rgba(203, 22, 67, 0.7);
+      }
+
+    }
+  }
+  
+    .footer {
+      font-size: 5px;
+      line-height: 7px;
+    }
+    
+  }
+
+}
+
+// @media (min-width: 992px) {
+
+// }
+
+
+// @media only screen and (min-width: 1200px) {
+//}
+
+
+
+// @media only (min-width: 768px) {
+
+// }
+
+// @media only (min-width: 992px) {
+
+// }
+
+
+// @media only screen and (min-width: 1200px) {
+
+// }
+  
