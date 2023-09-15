@@ -1,4 +1,4 @@
-import './search-box.scss'
+import './Search-box.scss';
 
 // eslint-disable-next-line react/prop-types
 export default function SearchBox ({onSearchChange, placeholder, className}){

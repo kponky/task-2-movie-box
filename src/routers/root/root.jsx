@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import CardComponent from '../../Components/Card-Component/Card-Component';
 import SearchBox from '../../Components/Search-box/Search-box';
 import { getMovies } from '../../Components/api';
-
 import './root.scss';
 import Brand from '../../assets/tv.png';
 import Hamburger from '../../assets/Menu.png';
