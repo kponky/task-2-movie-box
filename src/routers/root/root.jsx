@@ -121,7 +121,7 @@ export default function Root() {
             <i className="fa fa-twitter footer-icon"></i>
           </a>
 
-          <a href='https://www.youtube.com/channel/UCqalVAdpi_Dx3IfXO5Kl6jQ' target='_blank' rel="noreferrer"> 
+          <a href='https://www.youtube.com/channel/' target='_blank' rel="noreferrer"> 
             <i className="fa fa-youtube footer-icon"></i>
           </a> 
         </div>

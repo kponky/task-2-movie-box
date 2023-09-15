@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-
-import './card-component.scss'
+import './Card-Component.scss'
 import Heart from '../../assets/Heart.png'
 
 // eslint-disable-next-line react/prop-types

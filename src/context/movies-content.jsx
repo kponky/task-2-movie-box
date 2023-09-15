@@ -12,7 +12,7 @@ export const MovieProvider =  ({ children }) => {
 
 
     useEffect(()=>{
-        const apiKey = '3ae45bc50e65b3c6ea15cca0aa5f3e1e';
+        const apiKey = '26735bb131b1591f8a04d7266ff33690';
       
         fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
         .then(

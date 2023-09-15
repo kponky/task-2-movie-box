@@ -9,7 +9,7 @@ import MovieDetails, {loader as movieLoader} from '../src/routers/movie-detail/m
 import ErrorPage from '../src/routers/error-page/error-page'
 import { MovieProvider } from './context/movies-content'
 
-// import './index.css'
+import './index.css'
 
 const router = createBrowserRouter([
   {
