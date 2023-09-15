@@ -1,4 +1,5 @@
 import './Vertical-nav.scss';
+
 import Brand from '../../assets/tv.png';
 import Home from '../../assets/Home.png'
 import Movie from '../../assets/Movie Projector.png'
