@@ -125,7 +125,7 @@ export default function Root() {
           </a> 
         </div>
 
-        <div className='footer-sig'>
+        <div className='footer-signature'>
          <a href='#'> Conditions of Use</a>
          <a href='#'> Privacy & Policy</a>
          <a href='#'> Press Room</a>
